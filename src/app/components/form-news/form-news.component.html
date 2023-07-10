@@ -1,0 +1,23 @@
+<div class="form">
+    <div>
+      <label for="title">Titulo</label>
+      <input type="text" id="title" placeholder="introduce el titulo de la noticia" [(ngModel)]="newNews.title">
+    </div>
+  
+    <div>
+      <label for="date">Fecha</label>
+      <input type="string" id="date" placeholder="introduce la fecha de la noticia" [(ngModel)]="newNews.date">
+    </div>
+  
+    <div>
+      <label for="img">Imagen</label>
+      <input type="text" id="img" placeholder="introduce una imagen para la noticia" [(ngModel)]="newNews.img">
+    </div>
+
+    <div>
+        <label for="text">Texto</label>
+        <input type="text" id="text" placeholder="introduce el texto de la noticia" [(ngModel)]="newNews.text">
+      </div>
+
+    <button (click)="getDataForm()">GUARDAR</button>
+  </div>

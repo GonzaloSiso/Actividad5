@@ -1,0 +1,25 @@
+.news{
+    display: flex;
+    
+    margin: 0 auto;
+    width: 80%
+    
+  }
+
+ .noticias{
+
+    margin-top: 5%;
+
+ }
+
+ header {
+   background-color: #c6c0c0;
+   color: #fff;
+   padding: 20px;
+ }
+ 
+ header h1 {
+   font-size: 24px;
+   margin: 0;
+ }
+
